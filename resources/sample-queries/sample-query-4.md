@@ -1,0 +1,16 @@
+[Click to run](https://dataexplorer.azure.com/clusters/help/databases/Samples?query=H4sIAAAAAAAAA81UTY%2FTMBC951cMvdiRIpmkXWC7ioQ4wAEhrQS3tlp5U9OmTePIH9LClv9OHMf5zoI4MT24sTPvvXkzccYUAIUYMDRRcLlOc%2BU%2Fm4c9VeXvMWPuFEPGlGIC1k2CVCLND%2F4GUbS7sifF8r07uucyLvF%2BwZ1Jg6RiaghG4Abfwq8dKPSCkG9Hmp8lIR4ASoZ8ju7OPhpK1i3OMcNzvTEur1NdLQE2iLVEDYUBP7bgLXSL6WppxH%2FWUnFSiW%2FR7SE6DooZ1GKrOYFj7HWpiSlHh2UNouneaabIc4yt84xe4CMX3tDHCdIRn2UBVy46j0ZlPkZOtGH05f3xddE1iJAPOs32pQKvp3fQoL4jrjOA8tm5tmPNpxWMZAxirlkmOgYS8lUnR6DjsUF87OLk2IgXBP6jwol7wEVXIiGfBKPKzjwSf5hxo1XOf7CT98WsjmEb20ByZtRVjHtu9KeloexNzfCiQuovbiU905AXegE9B2avSULuBd%2FrRL0yhuuJz2zS9IImrC2%2BT%2Fo8Yp0WN2944w1MGN85J014hMyi%2FPfh6TzlOdY4vPH9AOf4rVlOODSLxpFZJA7fmFXhVfVoGoDDpd0KqwSBoyq%2F3K8yzzhc2TVa2v1oZd8Low7Grfmf4KjaO%2BLwtVkpjioMjsN3ln7ZptzYk%2BqAerjWdWvzozLf9cy2P07T77hsH6Q54DAoRQWK66Jgop4PP6jXKxf78tN8%2FGG6DVQmV6kvFyrSn6zGkvGFntlDlkrlkq%2BF4CeWKPjCpKQHFgtWZKXMB8EO7Akrbuesfl36wXu02W62i22w3e1QsFj4vwF9Mzqe1ggAAA%3D%3D)
+
+```
+let  a = (          pos:int){    datatable        ( letter :         string)['a']|extend        Pos=pos} ; let c = ( pos:int){datatable           (letter:string)[              //Thanks//
+  'c']|extend       Pos=pos};      let e = (        pos:int) {       datatable        (letter :   string) ['e']|extend Pos=pos};let h = (      pos:int) {datatable (letter:       //Kusto///
+   string) [      'h']|extend      Pos=pos};        let j  = (    pos:int){             datatable               (letter :                  string)['j']|extend Pos=pos};let k=(   //Team For
+  pos:int) {    datatable          (letter :        string ) [     'k']|extend                                  Pos=pos};                  let n = (                  pos:int){   //Building
+   datatable (letter:              string) [       'n']|extend        Pos=pos}; let o = (                       pos:int){                  datatable                   (letter :  //Such a//
+   string) [   'o']|extend         Pos=pos};        let r = (                        pos:int){                  datatable                  ( letter :                 string) [   //Great///
+  'r']|extend      Pos=pos};       let s = (        pos:int) {    datatable           ( letter :                string) [                 's']|extend Pos=pos};let t=(pos:int){    
+   datatable         (letter:      string)[        't']|extend       Pos=pos};      let u = (                   pos:int){                       datatable(letter:string)[         //Product!
+  'u']|extend          Pos=pos};       let space=(pos:int)              {datatable(letter:                      string) [                         ' ']|extend Pos=pos};           //////////
+//                                                                                                                                                                                          
+union(u(15)),(n(7)),(j(1)),(u(2)),(s(16)),(t(4)),(space(13)),(t(17)),(r(25)),(e(11)),(k(14)),(k(23)),(e(24)),(r(12)),(space(19)),(c(22)),(h(10)),(a(21)),(o(18)),(s(3)),(space(5)),(o(8)),(a
+(6)),(t(9)),(h(20))|extend letter=iif(Pos in (1,14),toupper(letter),letter)|order by Pos asc|summarize letters=make_list(letter)|project Message=replace_regex(tostring(letters),@'[\[\"\,\]]',"")
+```
