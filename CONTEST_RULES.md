@@ -14,7 +14,7 @@ The Contest starts at **12:00 p.m. Pacific Time (PT) on April 1, 2025**, and end
 
 - *Round 1 - Submission ("Entry Period")*: April 1, 2025 12:00 p.m. PT – April 30, 2025, 11:59 p.m. PT
 
-- *Round 2 - Public Voting ("Public Voting Period")*: April 1, 2025, 12:00 p.m. PT – April 8, 2025, 12:00 p.m. PT
+- *Round 2 - Public Voting ("Public Voting Period")*: May 1, 2025, 12:00 p.m. PT – May 8, 2025, 12:00 p.m. PT
 
 To be eligible for the Public Voting Round, all valid entries must be received during the Entry Period.
 
