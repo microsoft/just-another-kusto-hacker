@@ -71,18 +71,6 @@ Participating queries competed for votes in the following categories:
   |5| 🏅 Best minimalism               | [@razi-rais](https://github.com/razi-rais)         | [query-01](./resources/participating-queries/query-01.md) |
   |6| 🏅 People's choice               | [@LachyDeeW](https://github.com/LachyDeeW)         | [query-88](./resources/participating-queries/query-88.md) |
 
-## Coming soon: **Kusto Detective Agency - Call of the cyber duty**
-
-The 3rd season of the **Kusto Detective Agency** is coming soon. Register now and spread the word!
-
-- 💰 <span style="color:#008000">**Total prize amount of $21,000, and $10,000 for the 1st place**</span>
-- 📅 **Save the date**: June 8th, 2025
-- 📝 **[Register now](http://detective.kusto.io/register)**
-- 📜 **[Competition rules](https://detective.kusto.io/CyberDutyRules)**
-- 📺 **[Watch the trailer](https://www.youtube.com/watch?v=sPmTvXOZrnE)**
-
-  [![Kusto Detective Agency Season 3](https://img.youtube.com/vi/sPmTvXOZrnE/0.jpg)](https://www.youtube.com/watch?v=sPmTvXOZrnE)
-
 ---
 
 ## Contributing
